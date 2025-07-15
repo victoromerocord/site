@@ -1,41 +1,31 @@
- h1{
-    font-family: 'courier new', courier, monospace;
-    font-size: 30px;
-    font-weight: bold;
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+} p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     font-style: italic;
     text-align: center;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px rgba(143, 142, 142, 0.5);
-    margin: 0 0 0.5em 0;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    margin: 0 0 1.5em 0;
     padding: 0%;
-} p{
+    font-family: 'courier new', courier, monospace;
+} h1{
     font-family: 'courier new', courier, monospace;
     font-size: 20px;
     font-style: italic;
     text-align: center;
-    text-shadow: 2px 2px 2px rgba(163, 163, 163, 0.5);
-    margin: 0 0 0.5em 0;
+    text-shadow: 2px 2px 2px rgba(143, 142, 142, 0.5);
     padding: 0%;
-} img{
-    width: 328px;
-    max-width: 90%;
-    height: auto;
-    display: block;
-    box-shadow: 0 0 10px 0 rgba(107, 107, 107, 0.5);
-    border-radius: 10px;
-    margin: 3em auto 0 auto;
-}
 
-@media screen and (max-width: 480px) {
-    img {
-        width: 90%;
-        display: block;
-    }
-}
-
-body{
-    margin: 0;
-    padding: 0;
+} h2{
+    font-family: 'courier new', courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(114, 114, 114, 0.5);
+    margin: 0 0 1.5em 0;
+    padding: 0%;
 }
 .button {
     display: inline-block;
@@ -52,9 +42,7 @@ body{
     font-family: 'courier new', courier, monospace;
     font-weight: bold;
     box-shadow: 0 0 10px 0 rgba(114, 114, 114, 0.5);
-    
-}
-.button:hover {
+}.button:hover {
     color: rgb(173, 252, 232);
     text-shadow: 2px 2px 2px rgba(143, 142, 142, 0.5);
 }
